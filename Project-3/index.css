@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html , body {
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #a73333;
+}
+
+.sec1 {
+    background-image: url(Images/image1.png);
+    min-height: 100%;
+}
+
+.sec2 {
+    background-image: url(Images/image2.png);
+    min-height: 400px;
+}
+
+.sec3 {
+    background-image: url(Images/image3.png);
+    min-height: 400px;
+}
+
+.sec1 , .sec2 , .sec3
+{
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.box1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text {
+    padding: 15px;
+    color: #fff;
+    background-color: #313534;
+}
+
+/* SECTION # 1 */
+.section_para {
+    padding: 50px 80px;
+}
+
+.section_para h2 {
+  text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   font-weight: 300;
+   margin-bottom: 18px ;
+}
+
+.section_para h2 , p {
+    color: #666;
+}
+
+.pclass {
+    color: #666;
+}
+
+/* SECTION # 2 */
+.section_para2 {
+    padding: 50px 80px;
+    background-color: #666;
+}
+
+.section_para2 h2 {
+    text-align: center;
+     font-size: 30px;
+     text-transform: uppercase;
+     font-weight: 300;
+     margin-bottom: 18px ;
+}
+
+.section_para2 h2 , p {
+    color: #ffffff;
+}
+
+/* SECTION # 3 */
+.section_para3 {
+    padding: 50px 80px;
+    background-color: #666;
+}
+
+.section_para3 h2 {
+    text-align: center;
+     font-size: 30px;
+     text-transform: uppercase;
+     font-weight: 300;
+     margin-bottom: 18px ;
+}
+
+.section_para3 h2 , p {
+    color: #ffffff;
+}
